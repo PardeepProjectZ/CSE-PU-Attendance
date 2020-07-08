@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "310416328549",
+    "firebase_url": "https://pu-attendance.firebaseio.com",
+    "project_id": "pu-attendance",
+    "storage_bucket": "pu-attendance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310416328549:android:02bb6fabd4b7afaf64c38c",
+        "android_client_info": {
+          "package_name": "my.pu.cse_pu_attendance2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310416328549-kb38la8l2lje187sgg6i4irsfggo3bld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwlSuY1GhniY8xkoIkLt5WmWMI-dQBOY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310416328549-kb38la8l2lje187sgg6i4irsfggo3bld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310416328549:android:afdaca2cfbc7e19064c38c",
+        "android_client_info": {
+          "package_name": "my.pu.diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310416328549-kb38la8l2lje187sgg6i4irsfggo3bld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwlSuY1GhniY8xkoIkLt5WmWMI-dQBOY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310416328549-kb38la8l2lje187sgg6i4irsfggo3bld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

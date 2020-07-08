@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter Student Details"
+        android:id="@+id/student_ch"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Name"
+        android:id="@+id/add_Student_edittext"
+        android:layout_below="@+id/add_Student_Roll_edittext"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Roll Number"
+        android:id="@+id/add_Student_Roll_edittext"
+        android:layout_below="@+id/student_ch"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/studentadd_done"
+        android:layout_below="@+id/add_Student_edittext"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/studentadd_cancle"
+        android:layout_below="@+id/add_Student_edittext"
+        android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
